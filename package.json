@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-handlebars",
-  "version": "0.1",
+  "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
     "gulp-concat": "^2.6.0",
