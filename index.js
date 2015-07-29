@@ -16,8 +16,6 @@ elixir.extend('handlebars', function (src, options) {
         nameSpace: options.nameSpace || 'app.templates'
     };
 
-    console.log(config);
-
     new task('handlebars', function(){
         return gulp.src(config.src)
             .pipe(handlebars())
